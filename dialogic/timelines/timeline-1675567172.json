@@ -9,7 +9,7 @@
 			"character": "character-1675695595.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "one important distinction that must be drawn between the words dissection and vivisection"
+			"text": "one important distinction must be drawn between the words dissection and vivisection"
 		},
 		{
 			"character": "character-1675695595.json",
@@ -39,7 +39,7 @@
 			"character": "character-1675695595.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "did it not occur to you that as an organism existing within a greater organism, your intrusion would  be felt?"
+			"text": "did it not occur to you that as an organism existing within a greater organism, your intrusion would be felt?"
 		}
 	],
 	"metadata": {

@@ -6,6 +6,11 @@
 			"wait_time": 0
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -39,13 +44,13 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "they exclude subjectivity - they foreclose truth"
+			"text": "they exclude subjectivity - they foreclose truth."
 		},
 		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "we cannot truly know the real"
+			"text": "we cannot truly know the real."
 		}
 	],
 	"metadata": {

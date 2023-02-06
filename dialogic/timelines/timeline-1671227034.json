@@ -6,16 +6,33 @@
 			"wait_time": 0
 		},
 		{
-			"character": "character-1675694670.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "The worst form of pseudo-philosophy is shit like \"everything in reality is either Chaos or Order,\" "
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
 		},
 		{
 			"character": "character-1675694670.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "\"everything in reality is either Masculine or Feminine,\" \"everything in reality is either Dark or Light\" "
+			"text": "The worst form of pseudo-philosophy is shit like "
+		},
+		{
+			"character": "character-1675694670.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"everything in reality is either Chaos or Order,\""
+		},
+		{
+			"character": "character-1675694670.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"everything in reality is either Masculine or Feminine,\""
+		},
+		{
+			"character": "character-1675694670.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " \"everything in reality is either Dark or Light\" "
 		},
 		{
 			"character": "character-1675694670.json",
@@ -39,13 +56,7 @@
 			"character": "character-1675694670.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "but that doesn't give you any profound fuckin insight I'm just describing shit "
-		},
-		{
-			"character": "character-1675694670.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "and yes this is about jordan peterson"
+			"text": "but that doesn't give you any profound fuckin insight, I'm just describing shit "
 		}
 	],
 	"metadata": {

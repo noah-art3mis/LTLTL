@@ -6,15 +6,15 @@
 			"wait_time": 0
 		},
 		{
-			"character": "character-1675695587.json",
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "everything is a sign if you can read it"
+			"text": "i told you. it keeps happening."
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1671227208.json",
-		"name": "timeline_115"
+		"file": "timeline-1675717201.json",
+		"name": "timeline-131"
 	}
 }

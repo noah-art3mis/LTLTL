@@ -6,10 +6,15 @@
 			"wait_time": 0
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "say somebody comes here and threatens to blows up the Structure. what would you do?"
+			"text": "say somebody comes here and threatens to blow up the Structure. what would you do?"
 		},
 		{
 			"character": "character-1669740580.json",
@@ -33,7 +38,13 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "they can't. the structure is indestructible."
+			"text": "they can't."
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "the structure is indestructible."
 		},
 		{
 			"character": "character-1669740529.json",
@@ -72,7 +83,7 @@
 			"text": "the truth that you already have revealed to me just now, but is still false; "
 		},
 		{
-			"character": "",
+			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "until it blooms by itself inside me, when it transforms itself and becomes true?"

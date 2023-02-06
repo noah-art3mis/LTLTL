@@ -9,13 +9,36 @@
 			"character": "character-1675694659.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "are boundaries made to keep things out or in?"
+			"text": "do the steps go up or down?"
 		},
 		{
-			"character": "character-1675694659.json",
+			"character": "character-1675694738.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "do the steps go up or down?"
+			"text": "both, of course. any ascension simultaneously begets descent."
+		},
+		{
+			"character": "character-1675694738.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Every ascent is but the harbinger of its eventual reversal."
+		},
+		{
+			"character": "character-1675694738.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Though raindrops descend and rivers flow downwards, the journey of water leads it to the heavens nevertheless."
+		},
+		{
+			"character": "character-1675694738.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There, the water's odyssey begins its path anew, always reaching further heights and flowing towards further depths."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
 		},
 		{
 			"character": "character-1675694659.json",
