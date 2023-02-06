@@ -1,0 +1,50 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694771.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "how can you care about math after being introduced to the concept of imaginary numbers? Honestly?? "
+		},
+		{
+			"character": "character-1675694771.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What a crock of shit. "
+		},
+		{
+			"character": "character-1675694771.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If your equation can only be solved by inventing numbers that can’t exist, like some kind of math deity, then you are fucking wrong and the math is flawed. "
+		},
+		{
+			"character": "character-1675694771.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Same for algebra solutions that basically say \"the correct answer is whatever the correct answer is\". "
+		},
+		{
+			"character": "character-1675694771.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That’s what the math said transcribed to words but God forbid if i wrote in down in english instead of the ancient math runes the teacher would mark me wrong. "
+		},
+		{
+			"character": "character-1675694771.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Math is logical and numbers never lie” my ass. Math is just as flawed as any other human construct"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671227509.json",
+		"name": "timeline_124"
+	}
+}

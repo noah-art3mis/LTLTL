@@ -1,0 +1,50 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "one important distinction that must be drawn between the words dissection and vivisection"
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "a distinction that would appear to be lost on you."
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "the hallways and corridors of the house are its veins, providing circulation coursing throughout its brain. "
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "a staircase bears more than a passing resemblance, both physically and symbolically, to a spine."
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "have you not been paying attention?"
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "did it not occur to you that as an organism existing within a greater organism, your intrusion would  be felt?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675567172.json",
+		"name": "timeline_131"
+	}
+}

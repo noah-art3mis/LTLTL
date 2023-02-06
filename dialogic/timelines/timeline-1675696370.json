@@ -1,0 +1,20 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "everything is true. even false things."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675696370.json",
+		"name": "timeline_132"
+	}
+}

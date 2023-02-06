@@ -1,0 +1,18 @@
+[gd_resource type="SpatialMaterial" load_steps=4 format=2]
+
+[ext_resource path="res://textures/Tiles081_1K-JPG/Tiles081_1K_Color.jpg" type="Texture" id=1]
+[ext_resource path="res://textures/Tiles081_1K-JPG/Tiles081_1K_Displacement.jpg" type="Texture" id=2]
+[ext_resource path="res://textures/Tiles081_1K-JPG/Tiles081_1K_NormalGL.jpg" type="Texture" id=3]
+
+[resource]
+albedo_texture = ExtResource( 1 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 3 )
+depth_enabled = true
+depth_scale = 0.05
+depth_deep_parallax = false
+depth_flip_tangent = false
+depth_flip_binormal = false
+depth_texture = ExtResource( 2 )
+uv1_scale = Vector3( 10, 10, 10 )

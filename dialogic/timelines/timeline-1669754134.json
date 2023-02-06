@@ -1,0 +1,56 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "knowing is the business of scientists."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "arent you a scientist?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "of course not! scientists are authoritarian. they try to tame nature. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "they try to understand using concepts and experiments. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "by definition, experiments can never reach truth. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "they exclude subjectivity - they foreclose truth"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "we cannot truly know the real"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669754134.json",
+		"name": "timeline_8"
+	}
+}

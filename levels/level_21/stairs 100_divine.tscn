@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://textures/metal_042A.tres" type="Material" id=1]
+[ext_resource path="res://levels/level_21/stairs 100_divine.glb" type="PackedScene" id=2]
+
+[node name="stairs 100_divine" instance=ExtResource( 2 )]
+
+[node name="Cube" parent="." index="0"]
+material/0 = ExtResource( 1 )

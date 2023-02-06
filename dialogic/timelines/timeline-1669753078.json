@@ -1,0 +1,74 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "so were going back to plato then? is the Structure just the Form of the tower?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "of course not. that would be idealist, and i am not an idealist."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "what are you then?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i am not anything."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "what?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i don't care for identities."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "don't you believe in anything at all?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i believe in truth. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "dont you?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669753078.json",
+		"name": "timeline_4"
+	}
+}

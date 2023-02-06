@@ -1,0 +1,70 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://deprecated/dialog system/DialogueBox.gd" type="Script" id=1]
+[ext_resource path="res://dialogue/font.tres" type="Theme" id=2]
+
+[node name="DialogueBox" type="NinePatchRect"]
+anchor_top = 0.48
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 12
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+visible = false
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 12.0
+margin_top = -60.0
+margin_right = -12.0
+margin_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme = ExtResource( 2 )
+text = "sclkjsldfjk lsçdkfj sldçkfj slçdfkj slçdkfj slçdkfj slçdkfj sçdlfkj sdf "
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+
+[node name="letter_timer" type="Timer" parent="."]
+wait_time = 0.06
+one_shot = true
+
+[node name="sentence_timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Label" type="Label" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 12.0
+margin_top = -60.0
+margin_right = -12.0
+margin_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+rect_clip_content = true
+mouse_filter = 0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme = ExtResource( 2 )
+text = "sclkjsldfjk lsçdkfj sldçkfj slçdfkj slçdkfj slçdkfj slçdkfj sçdlfkj sdf "
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_editor_description_": ""
+}
+
+[connection signal="timeout" from="letter_timer" to="." method="_on_letter_timer_timeout"]
+[connection signal="timeout" from="sentence_timer" to="." method="_on_sentence_timer_timeout"]

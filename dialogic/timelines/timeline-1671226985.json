@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694666.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "the way we interact as humans is changing. "
+		},
+		{
+			"character": "character-1675694666.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "for too long we've relied on the middlemen to connect us. "
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1675694666.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "but with cryptocurrency it opens up the possibility of connecting directly."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671226985.json",
+		"name": "timeline_110"
+	}
+}

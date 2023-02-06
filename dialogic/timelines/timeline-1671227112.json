@@ -1,0 +1,44 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694721.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "prehistoric man was 2 meters tall (this is where tales of giants come from) because "
+		},
+		{
+			"character": "character-1675694721.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you could hunt megafauna and eat >15000 calories per day easily. "
+		},
+		{
+			"character": "character-1675694721.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "people back then also had larger brain volume with a median IQ of 140"
+		},
+		{
+			"character": "character-1675694721.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "there is also evidence to suggest people had low level telepathic abilities. "
+		},
+		{
+			"character": "character-1675694721.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "then agriculture ruined everything"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671227112.json",
+		"name": "timeline_112"
+	}
+}

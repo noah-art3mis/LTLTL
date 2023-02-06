@@ -1,0 +1,68 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i'll give you this: the first step to truly experiencing something is wanting to believe."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "what if someone lies to you?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "that's neither here nor there. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "that's their business, not mine."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "what if the lie gets you killed?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "then that's my truth."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "what if you survive?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "then that's my truth as well. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "see? you cannot escape truth."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669754543.json",
+		"name": "timeline_11"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If it cannot break its egg's shell, a chick will die without being born. "
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We are the chick. The world is our egg."
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " If we don't crack the world's shell, we will die without being born. "
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Smash the world's shell, for the revolution of the world!"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675129110.json",
+		"name": "timeline_130"
+	}
+}

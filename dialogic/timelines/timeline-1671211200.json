@@ -1,0 +1,59 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 10
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Moralists don't really *have* beliefs. "
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sometimes they stumble on one, like on a child's toy left on the carpet. "
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The toy must be put away immediately. And the child reprimanded. "
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Centrism isn't change - not even incremental change. It is *control*. Over yourself and the world. Exercise it."
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ask yourself: is there something sinister in moralism? "
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And then answer: no. God is in his heaven. Everything is normal on Earth. "
+		},
+		{
+			"emit_signal": "change_level",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671211200.json",
+		"name": "timeline_102"
+	}
+}

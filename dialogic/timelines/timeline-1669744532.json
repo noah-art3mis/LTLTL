@@ -1,0 +1,50 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 2
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\tyou can't go up there."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "why not."
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "it's impossible."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "surely there is a way up?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "no there's not. trust me on this one."
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "huh."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669744532.json",
+		"name": "timeline_1"
+	}
+}

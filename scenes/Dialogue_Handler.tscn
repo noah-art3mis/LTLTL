@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://levels/level_0_singletons/Dialogue_Trigger_Handler.gd" type="Script" id=1]
+
+[node name="Dialogue_Handler" type="Node"]
+script = ExtResource( 1 )

@@ -1,0 +1,17 @@
+[gd_resource type="SpatialMaterial" load_steps=5 format=2]
+
+[ext_resource path="res://textures/tex2/tx2_metallic.bmp" type="Texture" id=1]
+[ext_resource path="res://textures/514181190_An albedo texture of perfectly tiling granite tiles, flat lighting, top - down photograph.png" type="Texture" id=2]
+[ext_resource path="res://textures/tex2/tx2_smoothness.bmp" type="Texture" id=3]
+[ext_resource path="res://textures/tex2/tx2_normal.bmp" type="Texture" id=4]
+
+[resource]
+albedo_texture = ExtResource( 2 )
+metallic = 0.06
+metallic_specular = 0.48
+metallic_texture = ExtResource( 1 )
+roughness_texture = ExtResource( 3 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 4 )
+uv1_scale = Vector3( 20, 20, 1 )

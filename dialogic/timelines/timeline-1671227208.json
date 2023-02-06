@@ -1,0 +1,20 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675695587.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "everything is a sign if you can read it"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671227208.json",
+		"name": "timeline_115"
+	}
+}

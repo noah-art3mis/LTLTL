@@ -1,0 +1,38 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I was, once, a “woman in psychoanalysis”."
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I was assigned female at birth and, like the mutant ape, I extricated myself from that confined “cage”"
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "in order to enter another cage, granted, but at least this time through my own initiative."
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "this cage is better than that of “men and women” in that it acknowledges its status as a cage."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675126439.json",
+		"name": "timeline_128"
+	}
+}

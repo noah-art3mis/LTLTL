@@ -1,0 +1,20 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694738.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "not all walls are made of matter."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671226696.json",
+		"name": "timeline_108"
+	}
+}

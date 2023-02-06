@@ -1,0 +1,56 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "oracles have bestowed upon us much wisdom, such as:"
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- if you are a stranger act like one"
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- make promises to no one"
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- do not be discontented by life"
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- admire oracles"
+		},
+		{
+			"character": "character-1675695598.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "is that last one really trustworthy coming from an oracular source?"
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "sounds like you dont a admire oracles... not good"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671227218.json",
+		"name": "timeline_116"
+	}
+}

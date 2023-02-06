@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
+[ext_resource path="res://levels/level_21/stairs 100_divine.tscn" type="PackedScene" id=2]
+[ext_resource path="res://levels/level_21/LastLevelManager.gd" type="Script" id=3]
+
+[node name="level_21" instance=ExtResource( 1 )]
+
+[node name="level_21_manager" type="Node" parent="." index="0"]
+script = ExtResource( 3 )
+
+[node name="stairs 100_divine" parent="." index="1" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 180, 0 )
+
+[node name="stairs 100_divine2" parent="." index="2" instance=ExtResource( 2 )]
+
+[node name="stairs 100_divine3" parent="." index="3" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -180, 0 )
+
+[node name="convo_trigger_extra" parent="." index="10"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -45, 0 )
+
+[connection signal="area_exited" from="Player/DialogueTriggerer" to="level_21_manager" method="_on_DialogueTriggerer_area_exited"]

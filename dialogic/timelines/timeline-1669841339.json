@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 30
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ppl are asking questions like, \"how do i get out of this labyrinth\""
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " and this is horribole why would anyone build this\" "
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "but i think we shoudl be asking questions like \"why dont the others love the labyrinth as much as i do\" "
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "and \"how do i make tgem love the labyrinth\""
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669841339.json",
+		"name": "timeline_101"
+	}
+}

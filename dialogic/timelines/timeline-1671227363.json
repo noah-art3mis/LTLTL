@@ -1,0 +1,26 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675695607.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Kinda funny that even with our modern medicine we can’t cure depression, anxiety, insomnia, etc "
+		},
+		{
+			"character": "character-1675695607.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "when the atlanteans could cure it with their energy tetrahedrons 40,000 years ago"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671227363.json",
+		"name": "timeline_119"
+	}
+}

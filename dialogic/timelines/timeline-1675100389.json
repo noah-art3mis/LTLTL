@@ -1,0 +1,44 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Intense pleasure in skill, machine skill, ceases to be a sin, but an aspect of embodiment."
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The machine is not an it to be animated, worshipped, and dominated. "
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The machine is us, our processes, an aspect of our embodiment. "
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We can be responsible for machines; they do not dominate or threaten us. "
+		},
+		{
+			"character": "character-1671212766.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We are responsible for boundaries; we are they."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675100389.json",
+		"name": "timeline_126"
+	}
+}

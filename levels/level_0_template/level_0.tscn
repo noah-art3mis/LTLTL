@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scripts/bounds_trigger.tscn" type="PackedScene" id=1]
+[ext_resource path="res://audio/music/Alteration.mp3" type="AudioStream" id=2]
+[ext_resource path="res://fps controller/3dCC.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/Level Manager.tscn" type="PackedScene" id=4]
+[ext_resource path="res://skybox/panorama.tres" type="PanoramaSky" id=6]
+[ext_resource path="res://scripts/DialogueHandler.gd" type="Script" id=7]
+
+[sub_resource type="Environment" id=4]
+background_mode = 2
+background_sky = ExtResource( 6 )
+fog_color = Color( 0.85098, 0.254902, 0.305882, 1 )
+tonemap_mode = 2
+auto_exposure_enabled = true
+ss_reflections_enabled = true
+ssao_enabled = true
+glow_enabled = true
+adjustment_enabled = true
+
+[sub_resource type="BoxShape" id=6]
+extents = Vector3( 0.5, 0.5, 0.5 )
+
+[node name="level_0" type="Spatial"]
+
+[node name="LevelManager" parent="." instance=ExtResource( 4 )]
+
+[node name="DialogueHandler" type="Node" parent="."]
+script = ExtResource( 7 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 4 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.506744, 0.328406, -0.797095, 0.0655557, 0.907244, 0.415464, 0.8596, -0.262788, 0.438212, 0, 0, 0 )
+shadow_enabled = true
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+autoplay = true
+
+[node name="Player" parent="." instance=ExtResource( 3 )]
+move_speed = 5
+gravity = -7
+friction = 3.0
+max_climb_angle = 0.1
+
+[node name="DialogueTriggerer" type="Area" parent="Player"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Player/DialogueTriggerer"]
+shape = SubResource( 6 )
+
+[node name="bounds_trigger" parent="." instance=ExtResource( 1 )]
+transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -50, 0 )
+
+[connection signal="next_level" from="DialogueHandler" to="LevelManager" method="_on_Dialogue_Handler_next_level"]
+[connection signal="area_entered" from="Player/DialogueTriggerer" to="DialogueHandler" method="_on_DialogueTriggerer_area_entered"]
+[connection signal="body_entered" from="bounds_trigger" to="LevelManager" method="_on_bounds_trigger_body_entered"]

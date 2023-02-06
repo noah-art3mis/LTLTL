@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
+[ext_resource path="res://levels/level_6/stairs 500.tscn" type="PackedScene" id=2]
+[ext_resource path="res://levels/level_3/stairs 200_normal.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/hapen_coin_5.tscn" type="PackedScene" id=4]
+
+[node name="level_6" instance=ExtResource( 1 )]
+
+[node name="Player" parent="." index="5"]
+transform = Transform( -0.124762, 0, 0.992187, 0, 1, 0, -0.992187, 0, -0.124762, -1.63357, 0.164163, -0.123803 )
+
+[node name="stairs 500" parent="." index="6" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 0, -0.488478 )
+
+[node name="stairs 200_normal" parent="." index="7" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.828, -65.615, 37.496 )
+
+[node name="stairs 200_normal2" parent="." index="8" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.3096, -65.615, 37.496 )
+
+[node name="stairs 200_normal3" parent="." index="9" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -75.8573, -65.615, 45.4672 )
+
+[node name="stairs 200_normal4" parent="." index="10" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.3096, -65.615, -54.5173 )
+
+[node name="stairs 200_normal5" parent="." index="11" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.3096, -65.615, -54.5173 )
+
+[node name="stairs 200_normal6" parent="." index="12" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -72.5935, -65.615, -54.5173 )
+
+[node name="stairs 200_normal7" parent="." index="13" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.7118, -65.615, -54.5173 )
+
+[node name="stairs 200_normal8" parent="." index="14" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.7118, -65.615, 105 )
+
+[node name="stairs 200_normal9" parent="." index="15" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -57.3937, -65.615, 105 )
+
+[node name="stairs 200_normal10" parent="." index="16" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -57.3937, -65.615, 4.66231 )
+
+[node name="stairs 200_normal11" parent="." index="17" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -57.3937, -65.615, -150.311 )
+
+[node name="stairs 200_normal12" parent="." index="18" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.3097, -65.615, -150.311 )
+
+[node name="stairs 200_normal13" parent="." index="19" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 105.753, -65.615, -150.311 )
+
+[node name="stairs 200_normal14" parent="." index="20" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 105.753, -65.615, -5.82396 )
+
+[node name="stairs 200_normal15" parent="." index="21" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 105.753, -65.615, 43.9438 )
+
+[node name="stairs 200_normal16" parent="." index="22" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 105.753, -65.615, 77.9471 )
+
+[node name="stairs 200_normal17" parent="." index="23" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -109.476, -65.615, 77.9471 )
+
+[node name="bounds_trigger" parent="." index="24"]
+transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -67.7917, 0 )
+
+[node name="convo_trigger_114" parent="." index="25" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -30.4973, -5.56195 )

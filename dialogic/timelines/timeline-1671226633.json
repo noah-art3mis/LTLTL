@@ -1,0 +1,20 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694653.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you're not mad at the humans who get to be human for free?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671226633.json",
+		"name": "timeline_106"
+	}
+}

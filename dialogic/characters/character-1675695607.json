@@ -1,0 +1,21 @@
+{
+	"color": "#ff0a4324",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1675695607.json",
+	"mirror_portraits": false,
+	"name": "stranger_19",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1670012594.cfg"
+}

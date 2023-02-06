@@ -1,0 +1,26 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "why do i invite these wolves into my life? "
+		},
+		{
+			"character": "character-1675694659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "the oil that feeds the lamp is bitter but the flame hungers for it nevertheless"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1671226958.json",
+		"name": "timeline_109"
+	}
+}
