@@ -1,18 +1,22 @@
 extends Trigger
 
-#signal _entered
-#func _ready():
-#	var handler = get_tree().get_root().get_node("DialogueHandler")
-#	connect("_entered", handler, "_on_DialogueTriggerer_area_entered")
-#
-#func _on_Area_area_entered(area):
-#	if area.name == "DialogueTriggerer":
-#		emit_signal("_entered")
-
 onready var tween = get_node("Tween")
+onready var random_trans = randi() % 11
+
+func _ready():
+	randomize()
+
 func destroy():
 	tween.interpolate_property(self, "scale",
-				Vector3(1, 1, 1), Vector3(0, 0, 0), 1,
-				Tween.TRANS_CUBIC, Tween.EASE_OUT) #TODO randomize
+				self.scale, Vector3.ONE * 5, 2,
+				random_trans, Tween.EASE_OUT)
 	tween.start()
-	print("trigger destroyed; animation plays")
+	$CollisionShape.disabled = true
+	
+func _on_Tween_tween_completed(object, key):
+	if scale > Vector3.ZERO:
+		tween.interpolate_property(self, "scale",
+					self.scale, Vector3(0, 0, 0), 2,
+					random_trans, Tween.EASE_OUT)
+		tween.start()
+		print("trigger destroyed")

@@ -26,8 +26,8 @@ transform = Transform( 0.985973, 0, 0.166906, 0, 1, 0, -0.166906, 0, 0.985973, 2
 [node name="bounds_trigger" parent="." index="6"]
 transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -117.3, 0 )
 
-[node name="convo_trigger_5" parent="." index="7" instance=ExtResource( 7 )]
-transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
+[node name="convo_trigger_4" parent="." index="7" instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.32081, 0, -5.57611 )
 
 [node name="stairs 1000" parent="." index="8" instance=ExtResource( 4 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -100.224, 0 )
@@ -44,7 +44,9 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 75.7347, 0 )
 [node name="bounds_trigger3" parent="." index="12" instance=ExtResource( 2 )]
 transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, 133.668, 0 )
 
-[node name="convo_trigger_121" parent="." index="13" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 60.8586, -1.94746, -3.75446 )
+[node name="convo_trigger_112" parent="." index="13" instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -62.2979, 7.46434, -0.379997 )
 
 [connection signal="area_entered" from="bounds_trigger3" to="LevelManager" method="_on_bounds_trigger_area_entered"]
+
+[editable path="convo_trigger_112"]

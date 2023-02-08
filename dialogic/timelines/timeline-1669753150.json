@@ -8,7 +8,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 2
+			"wait_seconds": 5
 		},
 		{
 			"character": "character-1669740529.json",
@@ -38,7 +38,7 @@
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "what reason do i have to believe you besides some broken steps and some irrefutable claim?"
+			"text": "youre the one making irrefutable claims and telling me to trust them"
 		},
 		{
 			"character": "character-1669740580.json",
@@ -50,13 +50,7 @@
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "i mean, surely there are some things that tend to happen. are those not true? "
-		},
-		{
-			"character": "character-1669740529.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "some things do not change. some repeat themselves. are they not true?"
+			"text": "surely some things do not change. some repeat themselves. are those not true? "
 		},
 		{
 			"character": "character-1669740580.json",
@@ -74,7 +68,13 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "see? you are trying to know everything. that kind of atittude is typical of the scientist."
+			"text": "see? you are trying to know everything. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "typical. classic scientist behavior."
 		},
 		{
 			"character": "character-1669740580.json",

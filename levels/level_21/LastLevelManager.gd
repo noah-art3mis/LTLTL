@@ -8,11 +8,11 @@ func _process(delta):
 		player.translate(Vector3(0,180,0))
 		print("get back to the labyrinth")
 	
-		reset_coin()
+#		reset_coin()
 		
 
-func reset_coin():
-	coin.scale = Vector3(1,1,1)
-	var new_index = randi() % 10
-	new_index = new_index as String
-	coin.set_name("convo_trigger_" + new_index)
+#func reset_coin():
+#	coin.scale = Vector3(1,1,1)
+#	var new_index = randi() % 10
+#	new_index = new_index as String
+#	coin.set_name("convo_trigger_" + new_index)

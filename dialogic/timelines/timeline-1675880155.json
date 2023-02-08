@@ -1,0 +1,32 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694666.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your flowery description's no better than his."
+		},
+		{
+			"character": "character-1675694666.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We sent for the great light and you bring us this?"
+		},
+		{
+			"character": "character-1675694666.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We didn't ask what it seems like, we asked what it is."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675880155.json",
+		"name": "timeline_134"
+	}
+}

@@ -8,7 +8,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 2
+			"wait_seconds": 3
 		},
 		{
 			"character": "character-1675694797.json",
@@ -19,7 +19,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 2
+			"wait_seconds": 3
 		},
 		{
 			"character": "character-1675695595.json",
@@ -30,7 +30,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 2.1
+			"wait_seconds": 3
 		},
 		{
 			"character": "character-1675695598.json",
@@ -41,7 +41,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 2
+			"wait_seconds": 3
 		},
 		{
 			"character": "character-1675695600.json",

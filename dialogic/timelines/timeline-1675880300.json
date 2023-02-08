@@ -1,0 +1,68 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1675694662.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		},
+		{
+			"character": "character-1675694797.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		},
+		{
+			"character": "character-1675695587.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		},
+		{
+			"character": "character-1675695595.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		},
+		{
+			"character": "character-1675695598.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		},
+		{
+			"character": "character-1675694659.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		},
+		{
+			"character": "character-1675694670.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		},
+		{
+			"character": "character-1675695609.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why not be utterly changed into fire?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675880300.json",
+		"name": "timeline_137"
+	}
+}

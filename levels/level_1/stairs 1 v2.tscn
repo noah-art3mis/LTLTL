@@ -1,8 +1,10 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://levels/level_1/stairs 1 v2.glb" type="PackedScene" id=1]
 [ext_resource path="res://textures/2250021252_Ultra realistic cracked glass pane into house, caustic lighting, dramatic lighting, trending on artstation, 8k resolution.png" type="Texture" id=2]
 [ext_resource path="res://textures/tex1/tiles.tres" type="Material" id=3]
+[ext_resource path="res://materials/tiles_086.tres" type="Material" id=4]
+[ext_resource path="res://materials/tiles_084.tres" type="Material" id=5]
 
 [sub_resource type="ConcavePolygonShape" id=5]
 data = PoolVector3Array( -2.5, 0, 2.5, 2.5, 0, -2.5, 2.5, 0, 2.5, -2.5, 0, 2.5, -2.5, 0, -2.5, 2.5, 0, -2.5 )
@@ -35,15 +37,16 @@ material/0 = ExtResource( 3 )
 shape = SubResource( 5 )
 
 [node name="stair top" parent="stair" index="0"]
-material/0 = ExtResource( 3 )
+material/0 = ExtResource( 4 )
 
 [node name="StaticBody" type="StaticBody" parent="stair/stair top" index="0"]
+visible = false
 
 [node name="CollisionShape" type="CollisionShape" parent="stair/stair top/StaticBody" index="0"]
 shape = SubResource( 6 )
 
 [node name="stairs normal" parent="stair" index="1"]
-material/0 = ExtResource( 3 )
+material/0 = ExtResource( 4 )
 
 [node name="StaticBody" type="StaticBody" parent="stair/stairs normal" index="0"]
 
@@ -51,7 +54,7 @@ material/0 = ExtResource( 3 )
 shape = SubResource( 7 )
 
 [node name="walls" parent="." index="2"]
-material/0 = ExtResource( 3 )
+material/0 = ExtResource( 5 )
 
 [node name="StaticBody" type="StaticBody" parent="walls" index="0"]
 

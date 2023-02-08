@@ -6,7 +6,7 @@
 			"wait_time": 0
 		},
 		{
-			"character": "character-1675694659.json",
+			"character": "character-1675694738.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "do the steps go up or down?"
@@ -15,36 +15,43 @@
 			"character": "character-1675694738.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "both, of course. any ascension simultaneously begets descent."
+			"text": "both, of course. "
 		},
 		{
 			"character": "character-1675694738.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Every ascent is but the harbinger of its eventual reversal."
+			"text": "any ascension simultaneously begets descent."
 		},
 		{
 			"character": "character-1675694738.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Though raindrops descend and rivers flow downwards, the journey of water leads it to the heavens nevertheless."
+			"text": "though raindrops descend and rivers flow downwards"
 		},
 		{
 			"character": "character-1675694738.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "There, the water's odyssey begins its path anew, always reaching further heights and flowing towards further depths."
+			"text": "the journey of water leads it to the heavens nevertheless."
 		},
 		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 2
-		},
-		{
-			"character": "character-1675694659.json",
+			"character": "character-1675694738.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "do you still feel sick? "
+			"text": "its celestial housing is not a home, however."
+		},
+		{
+			"character": "character-1675694738.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "it is but a resting place. soon it returns to its singular voyage"
+		},
+		{
+			"character": "character-1675694738.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "always reaching further heights and flowing towards further depths."
 		}
 	],
 	"metadata": {

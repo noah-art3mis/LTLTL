@@ -1,9 +1,36 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
 [ext_resource path="res://levels/level_11/stairs 100.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scripts/convo_trigger.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/hapen_coin_5.tscn" type="PackedScene" id=4]
+[ext_resource path="res://textures/2023/Tiles076_2K-JPG/Tiles076_2K_Color.jpg" type="Texture" id=5]
+
+[sub_resource type="Shader" id=8]
+code = "shader_type spatial;
+render_mode unshaded;
+// Renders a tileable 2D texture to screen, using spatial polygons as a mask.
+// Remove blur from textures by unchecking \"Detect 3D\" and \"Filter\" in Import.
+// Demo: https://github.com/DeerTears/Polygon-Mask-for-2D-Textures/
+
+uniform sampler2D tiling_texture;
+
+uniform float tiling_scale = 1.0;
+
+const float DEFAULT_SCALE = 8.0;
+
+void fragment() {
+	vec2 uv = FRAGCOORD.xy;
+	vec2 tiling_uv = uv / (DEFAULT_SCALE * tiling_scale * -1.0);
+	vec4 texture_result = texture(tiling_texture, tiling_uv);
+	ALBEDO = texture_result.rgb;
+	ALPHA = texture_result.a;
+}"
+
+[sub_resource type="ShaderMaterial" id=9]
+shader = SubResource( 8 )
+shader_param/tiling_scale = 50.0
+shader_param/tiling_texture = ExtResource( 5 )
 
 [node name="level_11" instance=ExtResource( 1 )]
 
@@ -23,13 +50,18 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -669.176, 0 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -849.457, 0 )
 
 [node name="Player" parent="." index="10"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -75.1673, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.4291, -192.994, 1.95757 )
 
 [node name="bounds_trigger" parent="." index="11"]
-transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -294.821, 0 )
+transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -400.053, 0 )
 
 [node name="convo_trigger_10" parent="." index="12" instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -74.2281, 0 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -33.8319, -176.118, -7.46568 )
 
 [node name="convo_trigger_131" parent="." index="13" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.31788, -53.5745, -32.1434 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.60371, -37.9348, -32.1434 )
+
+[node name="Cube" parent="convo_trigger_131" index="0"]
+material/0 = SubResource( 9 )
+
+[editable path="convo_trigger_131"]

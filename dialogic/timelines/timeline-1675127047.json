@@ -62,7 +62,7 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "/i/ am not."
+			"text": "//i// am not."
 		},
 		{
 			"character": "character-1669740580.json",
@@ -71,28 +71,16 @@
 			"text": " i cannot speak for the others, of course"
 		},
 		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "not following. just wandering, with no particular destination"
+		},
+		{
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "and what are we following exactly?"
-		},
-		{
-			"character": "character-1669740580.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "the path of the singular - overcoming both all that is universal and particular"
-		},
-		{
-			"character": "character-1669740580.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "the path of truth - found only in errancy"
-		},
-		{
-			"character": "character-1669740580.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "beyond all illusion, the path of the real"
+			"text": "and it just so happens that your truthful, singular wandering took you exactly to the same place as the others?"
 		}
 	],
 	"metadata": {

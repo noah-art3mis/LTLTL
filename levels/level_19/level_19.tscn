@@ -1,8 +1,35 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
 [ext_resource path="res://levels/level_19/stairs 19_infernal.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/hapen_coin_5.tscn" type="PackedScene" id=3]
+[ext_resource path="res://textures/2023/PaintedMetal004_2K-JPG/PaintedMetal004_2K_Color.jpg" type="Texture" id=4]
+
+[sub_resource type="Shader" id=8]
+code = "shader_type spatial;
+render_mode unshaded;
+// Renders a tileable 2D texture to screen, using spatial polygons as a mask.
+// Remove blur from textures by unchecking \"Detect 3D\" and \"Filter\" in Import.
+// Demo: https://github.com/DeerTears/Polygon-Mask-for-2D-Textures/
+
+uniform sampler2D tiling_texture;
+
+uniform float tiling_scale = 1.0;
+
+const float DEFAULT_SCALE = 8.0;
+
+void fragment() {
+	vec2 uv = FRAGCOORD.xy;
+	vec2 tiling_uv = uv / (DEFAULT_SCALE * tiling_scale * -1.0);
+	vec4 texture_result = texture(tiling_texture, tiling_uv);
+	ALBEDO = texture_result.rgb;
+	ALPHA = texture_result.a;
+}"
+
+[sub_resource type="ShaderMaterial" id=9]
+shader = SubResource( 8 )
+shader_param/tiling_scale = 60.0
+shader_param/tiling_texture = ExtResource( 4 )
 
 [node name="level_19" instance=ExtResource( 1 )]
 
@@ -10,9 +37,15 @@
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -43.2635, -44.6441, 89.1464 )
 
 [node name="bounds_trigger" parent="." index="6"]
-transform = Transform( 5000, 0, 0, 0, 5, 0, 0, 0, 50000, 0, -66.2306, 0 )
+transform = Transform( 5000, 0, 0, 0, 5, 0, 0, 0, 50000, 0, -50, 0 )
 
 [node name="stairs 19_infernal" parent="." index="7" instance=ExtResource( 2 )]
 
-[node name="convo_trigger_113" parent="." index="8" instance=ExtResource( 3 )]
+[node name="convo_trigger_106" parent="." index="8" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -235.213, 40.6757, 100.858 )
+
+[node name="Cube" parent="convo_trigger_106" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.7539, -16.9024, -25.4833 )
+material/0 = SubResource( 9 )
+
+[editable path="convo_trigger_106"]

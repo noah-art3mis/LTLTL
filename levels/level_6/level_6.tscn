@@ -1,9 +1,43 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
 [ext_resource path="res://levels/level_6/stairs 500.tscn" type="PackedScene" id=2]
 [ext_resource path="res://levels/level_3/stairs 200_normal.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/hapen_coin_5.tscn" type="PackedScene" id=4]
+[ext_resource path="res://textures/2023/Tiles082_2K-JPG/Tiles082_2K_Color.jpg" type="Texture" id=5]
+[ext_resource path="res://scripts/convo_trigger.tscn" type="PackedScene" id=6]
+[ext_resource path="res://materials/tiles_058.tres" type="Material" id=7]
+
+[sub_resource type="Shader" id=8]
+code = "shader_type spatial;
+render_mode unshaded;
+// Renders a tileable 2D texture to screen, using spatial polygons as a mask.
+// Remove blur from textures by unchecking \"Detect 3D\" and \"Filter\" in Import.
+// Demo: https://github.com/DeerTears/Polygon-Mask-for-2D-Textures/
+
+uniform sampler2D tiling_texture;
+
+uniform float tiling_scale = 1.0;
+
+const float DEFAULT_SCALE = 8.0;
+
+void fragment() {
+	vec2 uv = FRAGCOORD.xy;
+	vec2 tiling_uv = uv / (DEFAULT_SCALE * tiling_scale * -1.0);
+	vec4 texture_result = texture(tiling_texture, tiling_uv);
+	ALBEDO = texture_result.rgb;
+	ALPHA = texture_result.a;
+}"
+
+[sub_resource type="ShaderMaterial" id=4]
+shader = SubResource( 8 )
+shader_param/tiling_scale = 15.0
+shader_param/tiling_texture = ExtResource( 5 )
+
+[sub_resource type="CubeMesh" id=5]
+
+[sub_resource type="ConcavePolygonShape" id=6]
+data = PoolVector3Array( -1, 1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, -1, 1, 1, 1, -1, -1, 1, -1, 1, -1, -1, -1, 1, -1, -1, -1, -1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, 1, -1, 1, -1, -1, 1, -1, 1, -1, 1, -1, -1, 1, 1, -1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, -1, 1, 1, -1, -1, -1, 1, 1, -1, 1, -1, -1, -1, 1, -1, 1, 1, -1, -1, -1, -1, -1 )
 
 [node name="level_6" instance=ExtResource( 1 )]
 
@@ -68,4 +102,23 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -109.476, -65.615, 77.9471 )
 transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -67.7917, 0 )
 
 [node name="convo_trigger_114" parent="." index="25" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -30.4973, -5.56195 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.83795, -40.0102, -3.96236 )
+
+[node name="Cube" parent="convo_trigger_114" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.17302, 0, 4.08518 )
+material/0 = SubResource( 4 )
+
+[node name="convo_trigger_6" parent="." index="26" instance=ExtResource( 6 )]
+transform = Transform( -0.124762, 0, 0.992187, 0, 1, 0, -0.992187, 0, -0.124762, -1.63357, 0.164163, -0.123803 )
+
+[node name="MeshInstance" type="MeshInstance" parent="." index="27"]
+transform = Transform( 5, 0, 0, 0, 1, 0, 0, 0, 5, -1.78387, -42.7665, 0 )
+mesh = SubResource( 5 )
+material/0 = ExtResource( 7 )
+
+[node name="StaticBody" type="StaticBody" parent="MeshInstance" index="0"]
+
+[node name="CollisionShape" type="CollisionShape" parent="MeshInstance/StaticBody" index="0"]
+shape = SubResource( 6 )
+
+[editable path="convo_trigger_114"]

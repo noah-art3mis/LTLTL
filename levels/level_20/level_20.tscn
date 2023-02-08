@@ -9,8 +9,16 @@
 [node name="Player" parent="." index="5"]
 transform = Transform( -0.5, 0, 0.866025, 0, 1, 0, -0.866025, 0, -0.5, 0, 3, 0 )
 
+[node name="bounds_trigger" parent="." index="6"]
+transform = Transform( 2000, 0, 0, 0, 1, 0, 0, 0, 2000, 0, 0, 0 )
+
 [node name="stairs 150_climb" parent="." index="7" instance=ExtResource( 1 )]
 transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0 )
 
 [node name="convo_trigger_101" parent="." index="8" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.93031, 149.324, 181.074 )
+
+[node name="Cube" parent="convo_trigger_101" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.281065, 0.310471, -0.615829 )
+
+[editable path="convo_trigger_101"]

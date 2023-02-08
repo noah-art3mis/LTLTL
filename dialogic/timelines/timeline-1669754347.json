@@ -6,15 +6,10 @@
 			"wait_time": 0
 		},
 		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 3
-		},
-		{
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "say somebody comes here and threatens to blow up the Structure. what would you do?"
+			"text": "say somebody threatened to destroy the Structure. how would you respond?"
 		},
 		{
 			"character": "character-1669740580.json",
@@ -38,7 +33,7 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "they can't."
+			"text": "they simply cannot destroy it."
 		},
 		{
 			"character": "character-1669740580.json",
@@ -50,61 +45,67 @@
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "...not long ago, just said the structure is impossible to fathom. "
-		},
-		{
-			"character": "character-1669740529.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "if that is so, how can you know that it is also indestructible?"
+			"text": "if it is unknowable, how can you know that it is also indestructible?"
 		},
 		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "well, my dear, what does it matter? i'll never convince you, will i? you don't want to believe.  "
+			"text": "well, my dear, what does it matter to you? "
 		},
 		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "convincing uses words, and words cannot touch the structure itself."
+			"text": "i'll never convince you, will i? you don't want to believe.  "
 		},
 		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "i cannot convince, or teach, or anything else; you must find the truth on your own."
-		},
-		{
-			"character": "character-1669740529.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "the truth that you already have revealed to me just now, but is still false; "
-		},
-		{
-			"character": "character-1669740529.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "until it blooms by itself inside me, when it transforms itself and becomes true?"
+			"text": "in any case, i am not trying to convince. "
 		},
 		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "truth always comes from error. anxiety never lies. "
+			"text": "conviction, after all, relies on the power of language"
 		},
 		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "that which cannot be named always harbors some kernel of the real."
+			"text": " and language is powerless against the hardness of the Structure"
 		},
 		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "you must get used to the real."
+			"text": "the path towards true desire is a solitary journey, and one that cannot be traversed by mere words. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i can only offer a modicum of guidance. one which you have repeatedly rejected. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "yet, for your benefit, i persevere."
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "the truth lies within you, waiting to be uncovered and embraced. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " until rediscovered in this way, it remains a mere shadow of itself."
 		}
 	],
 	"metadata": {

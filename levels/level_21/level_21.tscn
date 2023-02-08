@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
 [ext_resource path="res://levels/level_21/stairs 100_divine.tscn" type="PackedScene" id=2]
 [ext_resource path="res://levels/level_21/LastLevelManager.gd" type="Script" id=3]
+[ext_resource path="res://scripts/convo_trigger.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scripts/PermanentTrigger.gd" type="Script" id=5]
 
 [node name="level_21" instance=ExtResource( 1 )]
 
@@ -17,7 +19,34 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 180, 0 )
 [node name="stairs 100_divine3" parent="." index="3" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -180, 0 )
 
-[node name="convo_trigger_extra" parent="." index="10"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -45, 0 )
+[node name="Player" parent="." index="9"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 120, 0 )
+
+[node name="bounds_trigger" parent="." index="10"]
+transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, 300, 0 )
+
+[node name="convo_trigger_135" parent="." index="11" instance=ExtResource( 4 )]
+transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 0, 120.009, 0 )
+script = ExtResource( 5 )
+
+[node name="convo_trigger_136" parent="." index="12" instance=ExtResource( 4 )]
+transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 0, 53.902, 0 )
+script = ExtResource( 5 )
+
+[node name="convo_trigger_137" parent="." index="13" instance=ExtResource( 4 )]
+transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 0, 13.4262, 0 )
+script = ExtResource( 5 )
+
+[node name="convo_trigger_138" parent="." index="14" instance=ExtResource( 4 )]
+transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 0, -39.9649, 0 )
+script = ExtResource( 5 )
+
+[node name="convo_trigger_139" parent="." index="15" instance=ExtResource( 4 )]
+transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 0, -4.91929, 0 )
+script = ExtResource( 5 )
+
+[node name="convo_trigger_140" parent="." index="16" instance=ExtResource( 4 )]
+transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 0, 89.2619, 0 )
+script = ExtResource( 5 )
 
 [connection signal="area_exited" from="Player/DialogueTriggerer" to="level_21_manager" method="_on_DialogueTriggerer_area_exited"]
