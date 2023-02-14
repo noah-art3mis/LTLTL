@@ -26,6 +26,7 @@ environment = ExtResource( 7 )
 
 [node name="Music" parent="." index="8"]
 stream = ExtResource( 6 )
+volume_db = -3.0
 
 [node name="Player" parent="." index="9"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 120, 0 )
@@ -34,7 +35,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 120, 0 )
 transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, 300, 0 )
 
 [node name="convo_trigger_135" parent="." index="11" instance=ExtResource( 4 )]
-transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 0, 120.009, 0 )
+transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 0, 13.6516, 0 )
 script = ExtResource( 5 )
 
 [node name="convo_trigger_136" parent="." index="12" instance=ExtResource( 4 )]

@@ -9,7 +9,7 @@
 [ext_resource path="res://assets/hapen_coin_5.tscn" type="PackedScene" id=7]
 [ext_resource path="res://materials/pavingstrones_053.tres" type="Material" id=8]
 [ext_resource path="res://textures/2023/Tiles074_2K-JPG/Tiles074_2K_Color.jpg" type="Texture" id=9]
-[ext_resource path="res://audio/music/diane.mp3" type="AudioStream" id=10]
+[ext_resource path="res://audio/music/sleep.mp3" type="AudioStream" id=10]
 
 [sub_resource type="PlaneMesh" id=7]
 
@@ -59,6 +59,7 @@ transform = Transform( 0.506744, 0.328406, -0.797095, 0.0655557, 0.907244, 0.415
 
 [node name="Music" parent="." index="4"]
 stream = ExtResource( 10 )
+volume_db = -3.0
 
 [node name="Player" parent="." index="5"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 2.44339, 0 )

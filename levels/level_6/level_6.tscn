@@ -53,7 +53,7 @@ stream = ExtResource( 8 )
 transform = Transform( -0.124762, 0, 0.992187, 0, 1, 0, -0.992187, 0, -0.124762, -1.63357, 0.164163, -0.123803 )
 
 [node name="stairs 500" parent="." index="6" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 0, -0.488478 )
+transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, -12.9797, -0.488478 )
 
 [node name="stairs 200_normal" parent="." index="7" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.828, -65.615, 37.496 )
@@ -110,23 +110,24 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -109.476, -65.615, 77.9471 )
 transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -67.7917, 0 )
 
 [node name="convo_trigger_114" parent="." index="25" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.83795, -40.0102, -3.96236 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.48917, -12.0391, 0.0866847 )
 
 [node name="Cube" parent="convo_trigger_114" index="0"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.47329, 0, 4.08518 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 material/0 = SubResource( 4 )
 
 [node name="convo_trigger_6" parent="." index="26" instance=ExtResource( 6 )]
-transform = Transform( -0.124762, 0, 0.992187, 0, 1, 0, -0.992187, 0, -0.124762, -1.63357, 0.164163, -0.123803 )
+transform = Transform( -0.124762, 0, 0.992187, 0, 1, 0, -0.992187, 0, -0.124762, -1.63357, -2.27718, -0.123803 )
 
 [node name="MeshInstance" type="MeshInstance" parent="." index="27"]
-transform = Transform( 5, 0, 0, 0, 1, 0, 0, 0, 5, -1.78387, -42.7665, 0 )
+transform = Transform( 5, 0, 0, 0, 1, 0, 0, 0, 5, -1.78387, -4.26525, 0 )
 mesh = SubResource( 5 )
 material/0 = ExtResource( 7 )
 
 [node name="StaticBody" type="StaticBody" parent="MeshInstance" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="MeshInstance/StaticBody" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.272152, 0 )
 shape = SubResource( 6 )
 
 [editable path="convo_trigger_114"]

@@ -12,8 +12,9 @@ environment = ExtResource( 4 )
 
 [node name="Music" parent="." index="4"]
 stream = ExtResource( 2 )
+volume_db = -3.0
 
 [node name="bounds_trigger" parent="." index="6"]
-transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -120, 0 )
+transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -140, 0 )
 
 [node name="convo_trigger_114" parent="." index="7" instance=ExtResource( 3 )]

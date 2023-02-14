@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://levels/level_1/stairs 1 v2.glb" type="PackedScene" id=1]
-
-[node name="stairs 1 v2" instance=ExtResource( 1 )]

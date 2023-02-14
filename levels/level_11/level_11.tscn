@@ -56,15 +56,16 @@ environment = ExtResource( 7 )
 
 [node name="Music" parent="." index="9"]
 stream = ExtResource( 6 )
+volume_db = -3.0
 
 [node name="Player" parent="." index="10"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.4291, -192.994, 1.95757 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.805511, -210.059, 1.95757 )
 
 [node name="bounds_trigger" parent="." index="11"]
 transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -400.053, 0 )
 
 [node name="convo_trigger_10" parent="." index="12" instance=ExtResource( 3 )]
-transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -33.8319, -176.118, -7.46568 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 17.0515, -230.2, -21.6568 )
 
 [node name="convo_trigger_131" parent="." index="13" instance=ExtResource( 4 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.60371, -37.9348, -32.1434 )

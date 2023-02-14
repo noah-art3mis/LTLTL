@@ -21,7 +21,7 @@
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "i obviously can't. but i also can't see why i should believe you."
+			"text": "i obviously cant. but i also cant see why i should believe you."
 		},
 		{
 			"character": "character-1669740580.json",
@@ -33,7 +33,7 @@
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "...is that it? "
+			"text": "...wait. is that it? "
 		},
 		{
 			"character": "character-1669740529.json",
@@ -45,7 +45,7 @@
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "doesn't that mean everything everyone believes is 'true'?"
+			"text": "doesnt that mean everything everyone believes is 'true'?"
 		},
 		{
 			"character": "character-1669740580.json",
@@ -72,17 +72,6 @@
 			"text": " reason forecloses truth."
 		},
 		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": false,
-			"wait_seconds": 1
-		},
-		{
-			"character": "character-1669740529.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "..."
-		},
-		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -99,23 +88,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "surely that's better than imposing your truth on others."
-		},
-		{
-			"character": "character-1669740529.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "..."
-		},
-		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 1
-		},
-		{
-			"character": "character-1669740580.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "..."
 		}
 	],
 	"metadata": {

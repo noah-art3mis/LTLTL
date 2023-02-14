@@ -40,6 +40,7 @@ environment = ExtResource( 5 )
 
 [node name="Music" parent="." index="4"]
 stream = ExtResource( 4 )
+volume_db = -3.0
 
 [node name="Player" parent="." index="5"]
 transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, -20.759, -29.5937 )
