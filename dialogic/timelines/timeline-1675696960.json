@@ -6,6 +6,11 @@
 			"wait_time": 0
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4
+		},
+		{
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -36,7 +41,7 @@
 			"text": "you are not /supposed/ to do anything."
 		},
 		{
-			"character": "",
+			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "live a little! try experience instead of experiments"

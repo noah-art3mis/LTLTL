@@ -6,44 +6,6 @@
 			"wait_time": 0
 		},
 		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 3
-		},
-		{
-			"character": "character-1675694797.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "I think almost everything is placebo effect. Nothing does anything "
-		},
-		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 3
-		},
-		{
-			"character": "character-1675695595.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "theres actually zero difference between good and bad things. "
-		},
-		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 3
-		},
-		{
-			"character": "character-1675695598.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "everything is true. even false things."
-		},
-		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 3
-		},
-		{
 			"character": "character-1675695600.json",
 			"event_id": "dialogic_001",
 			"portrait": "",

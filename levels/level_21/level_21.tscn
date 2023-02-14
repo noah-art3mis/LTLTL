@@ -1,10 +1,12 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
 [ext_resource path="res://levels/level_21/stairs 100_divine.tscn" type="PackedScene" id=2]
 [ext_resource path="res://levels/level_21/LastLevelManager.gd" type="Script" id=3]
 [ext_resource path="res://scripts/convo_trigger.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scripts/PermanentTrigger.gd" type="Script" id=5]
+[ext_resource path="res://audio/music/prologue.mp3" type="AudioStream" id=6]
+[ext_resource path="res://skybox/env_quarry_01.tres" type="Environment" id=7]
 
 [node name="level_21" instance=ExtResource( 1 )]
 
@@ -18,6 +20,12 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 180, 0 )
 
 [node name="stairs 100_divine3" parent="." index="3" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -180, 0 )
+
+[node name="WorldEnvironment" parent="." index="6"]
+environment = ExtResource( 7 )
+
+[node name="Music" parent="." index="8"]
+stream = ExtResource( 6 )
 
 [node name="Player" parent="." index="9"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 120, 0 )

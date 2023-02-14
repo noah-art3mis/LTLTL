@@ -1,0 +1,86 @@
+{
+	"events": [
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We are all alienated."
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But have we ever been otherwise?"
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It is through, and not despite, our alienated condition that we can free ourselves from the muck of immediacy."
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Freedom is not a given–and it’s certainly not given by anything ‘natural’."
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The construction of freedom involves not less but more alienation; "
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "alienation is the labour of freedom’s construction."
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nothing should be accepted as fixed, permanent, or ‘given’ – neither material conditions nor social forms."
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Anyone who’s been deemed ‘unnatural’ in the face of reigning biological norms,"
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "anyone who’s experienced injustices wrought in the name of natural order"
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "will realize that the glorification of ‘nature’ has nothing to offer us"
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Essentialist naturalism reeks of theology."
+		},
+		{
+			"character": "character-1669842043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " The sooner it is exorcised, the better."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1675861526.json",
+		"name": "timeline_132"
+	}
+}

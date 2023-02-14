@@ -1,9 +1,38 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/hapen_coin_5.tscn" type="PackedScene" id=2]
 [ext_resource path="res://levels/level_17/stairs 23_wicked.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scripts/convo_trigger.tscn" type="PackedScene" id=4]
+[ext_resource path="res://audio/music/turning.mp3" type="AudioStream" id=5]
+[ext_resource path="res://skybox/env_mpumalanga.tres" type="Environment" id=6]
+[ext_resource path="res://textures/Chip001_2K-JPG/Chip001_2K_Color.jpg" type="Texture" id=7]
+
+[sub_resource type="Shader" id=8]
+code = "shader_type spatial;
+render_mode unshaded;
+// Renders a tileable 2D texture to screen, using spatial polygons as a mask.
+// Remove blur from textures by unchecking \"Detect 3D\" and \"Filter\" in Import.
+// Demo: https://github.com/DeerTears/Polygon-Mask-for-2D-Textures/
+
+uniform sampler2D tiling_texture;
+
+uniform float tiling_scale = 1.0;
+
+const float DEFAULT_SCALE = 8.0;
+
+void fragment() {
+	vec2 uv = FRAGCOORD.xy;
+	vec2 tiling_uv = uv / (DEFAULT_SCALE * tiling_scale * -1.0);
+	vec4 texture_result = texture(tiling_texture, tiling_uv);
+	ALBEDO = texture_result.rgb;
+	ALPHA = texture_result.a;
+}"
+
+[sub_resource type="ShaderMaterial" id=9]
+shader = SubResource( 8 )
+shader_param/tiling_scale = 75.0
+shader_param/tiling_texture = ExtResource( 7 )
 
 [node name="level_17" instance=ExtResource( 1 )]
 
@@ -14,5 +43,16 @@
 [node name="convo_trigger_126" parent="." index="1" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.84385, 18.9558, 75.4935 )
 
+[node name="Cube" parent="convo_trigger_126" index="0"]
+material/0 = SubResource( 9 )
+
+[node name="WorldEnvironment" parent="." index="4"]
+environment = ExtResource( 6 )
+
+[node name="Music" parent="." index="6"]
+stream = ExtResource( 5 )
+
 [node name="Player" parent="." index="7"]
 transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 29.6957, -40.3896 )
+
+[editable path="convo_trigger_126"]

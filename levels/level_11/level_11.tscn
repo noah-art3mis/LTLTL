@@ -1,10 +1,12 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
 [ext_resource path="res://levels/level_11/stairs 100.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scripts/convo_trigger.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/hapen_coin_5.tscn" type="PackedScene" id=4]
 [ext_resource path="res://textures/2023/Tiles076_2K-JPG/Tiles076_2K_Color.jpg" type="Texture" id=5]
+[ext_resource path="res://audio/music/Day Before.mp3" type="AudioStream" id=6]
+[ext_resource path="res://skybox/env_belfast.tres" type="Environment" id=7]
 
 [sub_resource type="Shader" id=8]
 code = "shader_type spatial;
@@ -48,6 +50,12 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -669.176, 0 )
 
 [node name="stairs 104" parent="." index="4" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -849.457, 0 )
+
+[node name="WorldEnvironment" parent="." index="7"]
+environment = ExtResource( 7 )
+
+[node name="Music" parent="." index="9"]
+stream = ExtResource( 6 )
 
 [node name="Player" parent="." index="10"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.4291, -192.994, 1.95757 )

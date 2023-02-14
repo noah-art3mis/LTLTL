@@ -1,15 +1,18 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://scripts/bounds_trigger.tscn" type="PackedScene" id=1]
 [ext_resource path="res://audio/music/Alteration.mp3" type="AudioStream" id=2]
 [ext_resource path="res://fps controller/3dCC.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scripts/Level Manager.tscn" type="PackedScene" id=4]
-[ext_resource path="res://skybox/panorama.tres" type="PanoramaSky" id=6]
+[ext_resource path="res://skybox/kloppenheim_02_puresky_4k.exr" type="Texture" id=5]
 [ext_resource path="res://scripts/DialogueHandler.gd" type="Script" id=7]
+
+[sub_resource type="PanoramaSky" id=7]
+panorama = ExtResource( 5 )
 
 [sub_resource type="Environment" id=4]
 background_mode = 2
-background_sky = ExtResource( 6 )
+background_sky = SubResource( 7 )
 fog_color = Color( 0.85098, 0.254902, 0.305882, 1 )
 tonemap_mode = 2
 auto_exposure_enabled = true

@@ -13,7 +13,7 @@
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "i see what you mean. there's a few steps missing."
+			"text": "i see what you mean. theres a few steps missing."
 		},
 		{
 			"character": "character-1669740529.json",
@@ -25,7 +25,7 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "as i said, going up there is impossible. the stairs dont matter."
+			"text": "as i said, going up there is impossible. it's not about the staircase"
 		},
 		{
 			"character": "character-1669740529.json",
@@ -49,7 +49,13 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "it is not meant to be understood. it doesnt mean anything. it just is."
+			"text": "it is not meant to be understood."
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " it doesnt mean anything."
 		},
 		{
 			"character": "character-1669740529.json",
@@ -79,7 +85,7 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "nobody put those there."
+			"text": "nobody built them."
 		},
 		{
 			"character": "character-1669740529.json",
@@ -91,13 +97,19 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "it's part of the Structure, you see. it was here before us all."
+			"text": "it's part of the Structure, you see."
 		},
 		{
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "dude, this 'structure' is literally falling apart. i cant get up there because some of it collapsed. it's just a matter of building it up again"
+			"text": "dude, this 'structure' is literally falling apart. "
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "some of it collapsed, but im sure its just a matter of building it up again."
 		},
 		{
 			"character": "character-1669740580.json",
@@ -109,7 +121,13 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "you can waste your time all you like. just don't try the impossible."
+			"text": "you can waste your time all you like."
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " just don't try the impossible."
 		}
 	],
 	"metadata": {

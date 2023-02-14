@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://levels/level_0_template/level_0.tscn" type="PackedScene" id=1]
 [ext_resource path="res://levels/level_6/stairs 500.tscn" type="PackedScene" id=2]
@@ -7,6 +7,8 @@
 [ext_resource path="res://textures/2023/Tiles082_2K-JPG/Tiles082_2K_Color.jpg" type="Texture" id=5]
 [ext_resource path="res://scripts/convo_trigger.tscn" type="PackedScene" id=6]
 [ext_resource path="res://materials/tiles_058.tres" type="Material" id=7]
+[ext_resource path="res://audio/music/Ghost(loop - ambient - cold - freezing).wav" type="AudioStream" id=8]
+[ext_resource path="res://skybox/env_syfer.tres" type="Environment" id=9]
 
 [sub_resource type="Shader" id=8]
 code = "shader_type spatial;
@@ -40,6 +42,12 @@ shader_param/tiling_texture = ExtResource( 5 )
 data = PoolVector3Array( -1, 1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, -1, 1, 1, 1, -1, -1, 1, -1, 1, -1, -1, -1, 1, -1, -1, -1, -1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, 1, -1, 1, -1, -1, 1, -1, 1, -1, 1, -1, -1, 1, 1, -1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, -1, 1, 1, -1, -1, -1, 1, 1, -1, 1, -1, -1, -1, 1, -1, 1, 1, -1, -1, -1, -1, -1 )
 
 [node name="level_6" instance=ExtResource( 1 )]
+
+[node name="WorldEnvironment" parent="." index="2"]
+environment = ExtResource( 9 )
+
+[node name="Music" parent="." index="4"]
+stream = ExtResource( 8 )
 
 [node name="Player" parent="." index="5"]
 transform = Transform( -0.124762, 0, 0.992187, 0, 1, 0, -0.992187, 0, -0.124762, -1.63357, 0.164163, -0.123803 )
@@ -105,7 +113,7 @@ transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -67.7917, 0 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.83795, -40.0102, -3.96236 )
 
 [node name="Cube" parent="convo_trigger_114" index="0"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.17302, 0, 4.08518 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.47329, 0, 4.08518 )
 material/0 = SubResource( 4 )
 
 [node name="convo_trigger_6" parent="." index="26" instance=ExtResource( 6 )]

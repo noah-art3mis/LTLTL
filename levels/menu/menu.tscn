@@ -1,0 +1,87 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://icons/menu_background.png" type="Texture" id=1]
+[ext_resource path="res://fonts/theme_menu_title.tres" type="Theme" id=2]
+[ext_resource path="res://levels/menu/menu.gd" type="Script" id=3]
+[ext_resource path="res://audio/music/prologue.mp3" type="AudioStream" id=4]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://fonts/Sumana-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 22
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+extra_spacing_char = 1
+extra_spacing_space = 1
+font_data = SubResource( 1 )
+
+[sub_resource type="Theme" id=3]
+default_font = SubResource( 2 )
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="learning to love" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+anchor_right = 1.0
+margin_left = -24.0
+margin_top = -120.0
+margin_right = -24.0
+margin_bottom = 232.0
+grow_horizontal = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource( 2 )
+text = "LEARNING TO LOVE"
+align = 2
+valign = 1
+uppercase = true
+
+[node name="the labyrinth" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 16.0
+margin_top = -256.0
+margin_right = 16.0
+margin_bottom = 96.0
+grow_horizontal = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource( 2 )
+text = "the labyrinth"
+valign = 1
+uppercase = true
+
+[node name="you are already here press any key to continue" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -204.0
+margin_top = -90.5
+margin_right = 204.0
+margin_bottom = 90.5
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = SubResource( 3 )
+text = "you are already here
+press any key to continue"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+autoplay = true
