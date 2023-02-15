@@ -6,17 +6,6 @@
 			"wait_time": 0
 		},
 		{
-			"character": "character-1675694670.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "everything can be transformed. every single thing."
-		},
-		{
-			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
-			"wait_seconds": 1
-		},
-		{
 			"character": "character-1675695587.json",
 			"event_id": "dialogic_001",
 			"portrait": "",

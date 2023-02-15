@@ -109,10 +109,10 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -109.476, -65.615, 77.9471 )
 [node name="bounds_trigger" parent="." index="24"]
 transform = Transform( 500, 0, 0, 0, 1, 0, 0, 0, 500, 0, -67.7917, 0 )
 
-[node name="convo_trigger_114" parent="." index="25" instance=ExtResource( 4 )]
+[node name="convo_trigger_107" parent="." index="25" instance=ExtResource( 4 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.48917, -12.0391, 0.0866847 )
 
-[node name="Cube" parent="convo_trigger_114" index="0"]
+[node name="Cube" parent="convo_trigger_107" index="0"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 material/0 = SubResource( 4 )
 
@@ -130,4 +130,4 @@ material/0 = ExtResource( 7 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.272152, 0 )
 shape = SubResource( 6 )
 
-[editable path="convo_trigger_114"]
+[editable path="convo_trigger_107"]

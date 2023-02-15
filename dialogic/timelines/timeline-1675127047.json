@@ -8,7 +8,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 5
+			"wait_seconds": 3
 		},
 		{
 			"character": "character-1669740580.json",

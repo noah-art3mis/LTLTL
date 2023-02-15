@@ -74,6 +74,7 @@ transform = Transform( -0.052, 0, 0, 0, 0.1, 0, 0, 0, 1.05, 0, 0, 0 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.92971, 9.31972, 0 )
 
 [node name="Cube" parent="convo_trigger_108" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.56806, 0, 0 )
 material/0 = SubResource( 4 )
 
 [editable path="convo_trigger_108"]

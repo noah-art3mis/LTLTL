@@ -6,10 +6,21 @@
 			"wait_time": 0
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
 			"character": "character-1669740529.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "...this seems wrong, like its just some semantic issue. but i do not see how to argue. th-"
+			"text": "...this seems wrong"
+		},
+		{
+			"character": "character-1669740529.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "like its just some semantic issue. but i do not see how to argue. th-"
 		},
 		{
 			"character": "character-1669740580.json",
@@ -45,7 +56,13 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "before you arrived, there was no problem. after you leave, there will be no problem."
+			"text": "before you arrived, there was no problem. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "after you leave, there will be no problem."
 		},
 		{
 			"character": "character-1669740529.json",

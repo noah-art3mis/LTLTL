@@ -25,7 +25,13 @@
 			"character": "character-1669740580.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "as i said, going up there is impossible. it's not about the staircase"
+			"text": "as i said, going up there is impossible. "
+		},
+		{
+			"character": "character-1669740580.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "it's not about the staircase"
 		},
 		{
 			"character": "character-1669740529.json",

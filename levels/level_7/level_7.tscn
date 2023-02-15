@@ -42,7 +42,7 @@ environment = ExtResource( 6 )
 stream = ExtResource( 5 )
 
 [node name="Player" parent="." index="5"]
-transform = Transform( -0.124762, 0, 0.992187, 0, 1, 0, -0.992187, 0, -0.124762, 0, 0, 0 )
+transform = Transform( -0.124762, 0, 0.992187, 0, 1, 0, -0.992187, 0, -0.124762, 0, -18.508, 0 )
 
 [node name="stairs 800_fall" parent="." index="6" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -168.104, 0 )
@@ -51,7 +51,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -168.104, 0 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -210, 0 )
 
 [node name="convo_trigger_132" parent="." index="8" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -80.878, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -51.4848, 0 )
 
 [node name="Cube" parent="convo_trigger_132" index="0"]
 material/0 = SubResource( 4 )

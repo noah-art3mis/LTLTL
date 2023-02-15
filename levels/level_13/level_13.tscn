@@ -59,7 +59,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.703, 101.36, 18.9297 )
 [node name="Cube" parent="convo_trigger_101" index="0"]
 material/0 = SubResource( 9 )
 
-[node name="convo_trigger_14" parent="." index="10" instance=ExtResource( 5 )]
+[node name="convo_trigger_12" parent="." index="10" instance=ExtResource( 5 )]
 transform = Transform( 100, 0, 0, 0, 1, 0, 0, 0, 100, 34.2973, 125.287, -9.44127 )
 
 [editable path="convo_trigger_101"]
