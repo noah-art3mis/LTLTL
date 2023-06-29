@@ -1,12 +1,10 @@
-# Learning to Love the Labyrinth
-
 <div style="display: flex; justify-content: center; margin-bottom: 1em">
   <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/8d8c3b41-1625-4173-ba1b-db336f8bdfab" width="250" style="margin-right: 15px;">
   <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/6ddc0eeb-c950-4b0c-8c28-53531a0d2f8a" width="250" style="margin-right: 15px;">
   <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/53094c7a-b46e-473d-810b-1fd3b9d132f5" width="250">
 </div>
 
-
+# Learning to Love the Labyrinth
 a game about using staircases for their intended purpose.  
 play at: https://noah-art3mis.itch.io/learning-to-love-the-labyrinth
 
