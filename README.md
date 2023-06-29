@@ -7,7 +7,7 @@
 </div>
 
 
-a game about using staircases for their intended purpose.
+a game about using staircases for their intended purpose.  
 play at: https://noah-art3mis.itch.io/learning-to-love-the-labyrinth
 
 LTLTL is an experimental/escape-room/soulslike/endless-runner/working-simulator/erotic/strategy/action-rpg/violent/non-violent/philosophical/pseudophilosophical/lgbt/lgbtqiapn+/post-modern/post-post-structuralist  game/content/experience/"game".  
