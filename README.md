@@ -2,9 +2,9 @@
 
 tread the realm of metaphysical staircases in search of truth, meaning and/or reality.  
 <div style="display: flex; justify-content: center; margin-bottom: 1em">
-  <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/8d8c3b41-1625-4173-ba1b-db336f8bdfab" width="300" style="margin-right: 15px;">
-  <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/6ddc0eeb-c950-4b0c-8c28-53531a0d2f8a" width="300" style="margin-right: 15px;">
-  <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/53094c7a-b46e-473d-810b-1fd3b9d132f5" width="300">
+  <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/8d8c3b41-1625-4173-ba1b-db336f8bdfab" width="200" style="margin-right: 15px;">
+  <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/6ddc0eeb-c950-4b0c-8c28-53531a0d2f8a" width="200" style="margin-right: 15px;">
+  <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/53094c7a-b46e-473d-810b-1fd3b9d132f5" width="200">
 </div>
 
 
