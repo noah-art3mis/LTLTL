@@ -1,6 +1,6 @@
 # Learning to Love the Labyrinth
 
-tread the realm of metaphysical staircases in search of truth, meaning and/or reality.  
+a game about using staircases for their intended purpose.
 <div style="display: flex; justify-content: center; margin-bottom: 1em">
   <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/8d8c3b41-1625-4173-ba1b-db336f8bdfab" width="250" style="margin-right: 15px;">
   <img src="https://github.com/noah-art3mis/LTLTL/assets/67103901/6ddc0eeb-c950-4b0c-8c28-53531a0d2f8a" width="250" style="margin-right: 15px;">
