@@ -22,4 +22,4 @@ With the discovery of this material and spiritual foundation of ontological trut
 
 For all the most pressing questions of our time - the questions of all times, the question of Time itself -, LTLTL presents a response. An absolute and true answer, which, of course, means it can only be spoken not-whole. It is barely an answer at all, as it resolves nothing and opens us up to everything. An answer that can only be hinted at. It cannot be spoken - it can only be experienced.  
 
-Truth was forgotten by Thought; we can rediscover it through Play.  
+Truth was forgotten by Thought; we can rediscover it through [Play](https://noah-art3mis.itch.io/learning-to-love-the-labyrinth).  
